@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css?family=Martel+Sans:200&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+header
+{
+    height: 110px;
+    display: inline-block;
+    position: relative;
+}
+.logo
+{  
+    width: 190px;
+    margin-top: 35px;
+    margin-left: 13.8%;
+    visibility: visible;
+    position: absolute;
+    z-index: 999;
+}
+
+/*--------------------logo2--------------------*/
+.navbar-brand img
+{
+    width: 130px;
+}
+.navbar-brand
+{
+    visibility: hidden;
+    ;
+}
+
+/*-----------------------header 1st----------------------------------*/
+form
+{
+    position: absolute;
+    top: 0;
+    width: 60%;
+    left: 38.5%;
+}
+.header-button
+{
+    display: inline-block;
+    padding-top: 21px;   
+}
+
+.header-button a
+{
+    color: white;
+    padding: 8px 10px 8px 10px;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.header-button a:hover
+{
+    text-decoration: none;
+    color: white;
+}
+.header-button a:nth-child(1)
+{
+    background-color: rgb(24, 139, 226);
+}
+.header-button a:nth-child(2)
+{
+    background-color: rgb(185, 112, 2);
+}
+.header-button a:nth-child(3)
+{
+    background-color: rgb(158, 0, 0)
+}
+#gery-button
+{
+    color: rgb(156, 156, 156);
+}
+#gery-button:hover
+{
+    background-color: rgb(236, 236, 236);
+}
+
+/*--------------------------search bar-----------------------*/
+
+.input-group-append button
+{
+    height: 32px;
+    border-left: none;
+    border-radius: 30px;    
+    border-color: rgb(187, 186, 186);
+}
+
+.input-group-append button i
+{
+    color: rgb(218, 216, 216);
+}
+
+.input-group-append button i:hover
+{
+    color: rgb(78, 78, 78);
+}
+
+.input-group-append button:hover
+{
+    background-color: white;
+}
+
+.input-group input
+{
+    border-radius: 30px;
+    border-right: none;
+    border-color: rgb(187, 186, 186);
+    font-size: 12px;
+}
+
+.input-group input:focus
+{
+    box-shadow: none;
+    border-color: rgb(187, 186, 186);
+}
+
+/*--------------------------second header----------------------*/
+
+.nav-bar-2
+{
+    position: relative;
+    top: 60px;  
+      
+}
+.navbar-nav
+{
+    margin-left: 22%
+}
+
+/*--------------------------Drop Downs-------------------------*/
+.dropbtn 
+{
+    background-color: white;
+    color: rgb(7, 123, 212);
+    padding: 11px;
+    font-size: 11px;
+    font-weight: bold;
+    border: none;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: all ease .2s;
+  }
+  
+.dropdown 
+  {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 180px;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0,0.2);
+    border-top: 5px solid rgb(24, 139, 226);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(58, 57, 57);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover 
+{
+    background-color: #ddd;
+}
+  
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+    transition: all ease .2s;
+}
+  
+.dropdown:hover .dropbtn
+{
+    background-color: rgb(24, 139, 226);
+    color: white;
+}
+
+#larger-dropcontent
+{
+    width: 200px;
+}
+.dropdown-content a
+{
+    border-bottom: 1px solid rgb(24, 139, 226);
+    font-size: 12px;
+}
+
+/*---------------------social-icons-------------------*/
+.social-icons
+{
+    width: 350px;
+    float: right;
+}
+.social-icons i
+{
+    border-radius: 100px;
+    font-size: 14px;
+    padding: 8px;
+    box-shadow: 0px 7px 5px 0px rgb(180, 179, 179);
+}
+
+
+.social-icons i:hover
+{
+    color: white;
+}
+
+#fb:hover
+{
+    background-color: #4267B2
+}
+
+#tw:hover
+{
+    background-color: #1DA1F2;
+}
+#in:hover
+{
+    background-color: #0e76a8;
+}
+#go:hover
+{
+    background-color: #db4a39;
+}
+
+#you:hover
+{
+    background-color: c4302b;
+}
+/*-----------------------main-buttons-------------------------*/
+
+.main-buttons
+{
+    padding: 15px;
+}
+.main-box-container a
+{
+    color: white;
+}
+.main-box-container a:hover
+{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+
+/*---------------------------happenings-----------------------------------*/
+
+
+.tab-content
+{
+    border: 1px solid rgb(231, 231, 231);
+}
+.date
+{
+    font-size: 12px;
+}
+.tab-pane
+{
+    padding: 10px;
+    font-size: 14px;
+}
+.nav-link:hover
+{
+    border-top: 3px solid rgb(24, 139, 226) !important;
+}
+
+.nav-item
+{
+    color: rgb(24, 139, 226);
+    background-color: rgb(238, 238, 238);
+    border-radius: 5px;
+}
+
+.nav-item > .active
+{
+    border-top: 3px solid rgb(24, 139, 226) !important;
+    color: rgb(24, 139, 226) !important;
+}
+
+/*------------------columns---------------------*/
+.card
+{
+    padding: 10px !important;
+    border: none !important;
+    margin: auto !important;
+    margin-top: 20px !important;
+}
+.icon-happ
+{
+    color: rgb(143, 143, 143);
+}
+.card-footer
+{
+    background-color: white !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(216, 215, 215) !important;
+}
+
+.card-header
+{
+    background-color: white !important;
+    border: none !important;
+}
+
+/*-----------------------------------happening-non-tab-------------------------------------*/
+.happening-non-tab h3
+{
+    color: rgb(24, 139, 226);
+}  
+.happening-non-tab a
+{
+    font-size: 14px;
+    font-weight: lighter !important;
+}
+.happening-non-tab a:hover
+{
+    background-color: rgb(223, 223, 223);
+    text-decoration: none;
+}
+.citizen-img 
+{
+    width: 170px;
+    margin: auto;
+}
+
+.footer-content
+{
+    width: 100%;
+    margin: auto !important;
+}
+.footer-con
+{
+    background-color: rgb(19, 144, 240);
+}
+
+footer a
+{
+    color: white;
+}
+.footer2
+{
+    background-color: rgb(7, 123, 212);
+}
+
+/*---------------------Media queries---------------------*/
+
+@media only screen and (max-width: 1199px) 
+{
+    .logo
+    {
+        display: none;
+    }
+    header
+    {
+        height: 70px;
+    }
+    .navbar-brand
+    {
+    visibility: visible !important;
+    }
+    .nav-bar-1
+    {
+        visibility: hidden;
+    }
+    .nav-bar-2
+    {
+        position: absolute !important; 
+        top: 0px;
+        z-index: 99;
+    }
+    .navbar-nav
+    {
+        position: relative;
+        background-color: white;
+        z-index: 999;
+    }
+    .card
+    {
+        width: 90% !important;
+    }
+    .navbar-nav
+    {
+        margin-left: 0;
+    }
+    
+}

@@ -1,0 +1,527 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="icon" href="images/NTU-removebg-preview.png" />
+    
+    <title>National Textile University Faisalabad</title>
+  </head>
+  <body>
+  <!----------------------------------Logo-------------------------------------->
+    <header>
+      <div class="logo">
+        <a href="" id="logo"
+          ><img src="images/logo.jpg" alt="" style="width: 180px;"
+        /></a>
+      </div>
+  <!----------------------------------Search Bar-------------------------------------->
+
+      <form action="" class="form-inline nav-bar-1">
+        <div class="header-button">
+          <a href="#" id="">Student Portal</a>
+          <a href="#" id="">Financial Aid & Scholarship</a>
+          <a href="#" id="">NTU Karachi Campus</a>
+          <a href="#" id="gery-button">>NTU Gazette</a>
+          <a href="#" id="gery-button">>Webmail</a>
+        </div>
+
+        <div class="input-group pt-4" style="width: 190px;">
+          <input type="text" class="form-control" placeholder="Search..." />
+          <div class="input-group-append">
+            <button class="btn btn-outline-secondary" type="button">
+              <i class="fa fa-search icon"></i>
+            </button>
+          </div>
+        </div>
+      </form>
+
+<!----------------------------------Navbar 2-------------------------------------->
+      <nav class="navbar navbar-expand-xl bg-white navbar-dark nav-bar-2 container-fluid">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""/></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+          style="background-color: rgb(24, 139, 226);"
+        >
+          <span class=""
+            ><img src="images/icons8-squared-menu-25.png" alt=""
+          /></span>
+        </button>
+
+<!----------------------------------Drop Downs-------------------------------------->
+
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <div class="dropdown">
+              <button class="dropbtn">
+                ABOUT <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">History</a>
+                <a href="#">Vision & Mission</a>
+                <a href="#">NTU Collaborations</a>
+                <a href="#">Authorities</a>
+                <a href="#">Board of Governors</a>
+                <a href="#">Executive Committee</a>
+                <a href="#">Finance & Planning Committee</a>
+                <a href="#">Academic Council</a>
+                <a href="#">Administration</a>
+                <a href="#">Rector's Office</a>
+                <a href="#">Newsletter</a>
+                <a href="#">NTU Media Cell</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                ADMISSIONS <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content" id="larger-dropcontent">
+                <div class="row">
+                  <div class="col-6">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                  <div class="col-6">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                ACADEMICS <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                RESEARCH <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                SERVICES <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">
+                STUDENT AFFAIRS <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">CONTACT US</button>
+            </div>
+          </ul>
+          <div class="social-icons pl-3">
+            <i class="fab fa-facebook" id="fb"></i>
+            <i class="fab fa-twitter" id="tw"></i>
+            <i class="fab fa-linkedin-in" id="in"></i>
+            <i class="fab fa-google-plus-g" id="go"></i>
+            <i class="fab fa-youtube" id="you"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+<!----------------------------------Slider-------------------------------------->    
+
+    <div
+      id="carouselExampleControls"
+      class="carousel slide mt-3"
+      data-ride="carousel"
+      data-interval="3000"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item">
+          <img src="images/1.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/2.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item active">
+          <img src="images/3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/4.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/5.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/6.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+    </div>
+
+<!----------------------------------feature button-------------------------------------->
+
+    <div class="main-buttons-box pt-1">
+      <div class="container-fluid">
+        <div class="row text-center main-box-container">
+          <div class="col-lg-3 col-md-3 col-sm-12 main-buttons" style="background-color:#0e76a8">
+            <i class="fa fa-desktop" style="font-size: 50px; color: white;"></i>
+            <br>
+            <a href="">Information Technology</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 main-buttons" style="background-color:#128cc5">
+            <i class="fas fa-book-open" style="font-size: 50px; color: white;"></i>
+            <br>
+            <a href="">Library</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 main-buttons" style="background-color:#1599d6">
+            <i class="far fa-check-circle" style="font-size: 50px; color: white;"></i>
+            <br>
+            <a href="">Quality Enhancemnet Cell</a>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-12 main-buttons" style="background-color:#18a4e6">
+            <i class="fa fa-search" style="font-size: 50px; color: white;"></i>
+            <br>
+            <a href="">Information Technology</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!----------------------------------Happenings column 1--------------------------------------> 
+
+<div class="container">
+<p class="pt-3 pd-3" style="color:#128cc5; font-size: 30px;">Happening at NTU</p>
+<div class="row">
+  <div class="col-xl-4 col-lg-12">
+
+    <div class="card" style="width:350px">
+      <img class="card-img-top" src="images/happing1.jpg" alt="Card image" style="width:100%">
+      <div class="card-header"><a href="">MPlus Usage for Quantitative Analysis</a></div><br>
+      <div class="card-footer">
+        <i class="fa fa-calendar icon-happ"></i>
+        <span class="date">Mar 20 2020</span><br>
+        <i class="fas fa-university icon-happ"></i>
+        <a href="">Dept. of Management Sciences</a>
+      </div>
+    </div>
+
+
+    <div class="card" style="width:350px">
+      <img class="card-img-top" src="images/happing3.jpg" alt="Card image" style="width:100%">
+      <div class="card-header"><a href="">Department of Management Sciences won Interdepartmental Volley Ball Championship</a></div>
+      <div class="card-footer">
+        <i class="fa fa-calendar icon-happ"></i>
+        <span class="date">Mar 20 2020</span><br>
+        <i class="fas fa-university icon-happ"></i>
+        <a href="">Dept. of Management Sciences</a>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width:350px">
+      <img class="card-img-top" src="images/h5.jpg" alt="Card image" style="width:100%">
+      <div class="card-header"><a href="">Sapphire Group (Diamond Fabrics) Ltd, Lahore Conducted Recruitment Drive in NTU</a></div>
+      <div class="card-footer">
+        <i class="fa fa-calendar icon-happ"></i>
+        <span class="date">Mar 20 2020</span><br>
+        <i class="fas fa-university icon-happ"></i>
+        <a href="">Advisor Students Office</a>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width:350px">
+      <img class="card-img-top" src="images/h7.jpg" alt="Card image" style="width:100%">
+      <div class="card-header"><a href="">SPE Organized an Event “Work shop on AutoCAD” by Mr. Usama Hamid</a></div>
+      <div class="card-footer">
+        <i class="fa fa-calendar icon-happ"></i>
+        <span class="date">Mar 20 2020</span><br>
+        <i class="fas fa-university icon-happ"></i>
+        <a href="">Dept. of Polymer Engineering</a>
+      </div>
+    </div>
+
+
+
+    <div class="card" style="width:350px">
+      <img class="card-img-top" src="images/h9.jpg" alt="Card image" style="width:100%">
+      <div class="card-header"><a href="">SDC International Design Competition for Students 2020-Pakistan</a></div><br>
+      <div class="card-footer">
+        <i class="fa fa-calendar icon-happ"></i>
+        <span class="date">Mar 20 2020</span><br>
+        <i class="fas fa-university icon-happ"></i>
+        <a href="">Dept. of Textile Processing</a>
+      </div>
+    </div>
+
+
+    <div class="col-xl-4 col-lg-12">
+      <div class="card" style="width:350px">
+        <img class="card-img-top" src="images/h11.jpg" alt="Card image" style="width:100%">
+        <div class="card-header"><a href="">Dr. Umber Sheikh participated in 5th International Conference on Pure and</a>
+        </div>
+        <div class="card-footer">
+          <i class="fa fa-calendar icon-happ"></i>
+          <span class="date">Mar 20 2020</span><br>
+          <i class="fas fa-university icon-happ"></i>
+          <a href="">Dept. of Applied Sciences</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!----------------------------------Happenings column 2-------------------------------------->          
+
+<div class="col-xl-4 col-lg-12">
+
+  <div class="card" style="width:350px">
+    <img class="card-img-top" src="images/happing2.jpg" alt="Card image" style="width:100%">
+    <div class="card-header"><a href="">QAA-HEC teams visit NTU for IPE and Program Review for FY 2019-20</a></div>
+    <div class="card-footer">
+      <i class="fa fa-calendar icon-happ"></i>
+      <span class="date">Mar 20 2020</span><br>
+      <i class="fas fa-university icon-happ"></i>
+      <a href="">Quality Enhancement Cell</a>
+    </div>
+  </div>
+
+    
+  <div class="card" style="width:350px">
+    <img class="card-img-top" src="images/happing4.jpg" alt="Card image" style="width:100%">
+      <div class="card-header"><a href="">Recruitment Drive- HR Team from Artistic Milliner Karachi Group1 (Garments and</a></div>
+      <div class="card-footer">
+      <i class="fa fa-calendar icon-happ"></i>
+      <span class="date">Mar 20 2020</span><br>
+      <i class="fas fa-university icon-happ"></i>
+      <a href="">Advisor Students Office</a>
+    </div>
+  </div>
+      
+
+      
+  <div class="card" style="width:350px">
+    <img class="card-img-top" src="images/h6.jpg" alt="Card image" style="width:100%">
+    <div class="card-header"><a href="">Third Year Students of BS Polymer Engineering visited SPEL Industry, Lahore</a></div>
+    <div class="card-footer">
+      <i class="fa fa-calendar icon-happ"></i>
+      <span class="date">Mar 20 2020</span><br>
+      <i class="fas fa-university icon-happ"></i>
+      <a href="">Dept. of Polymer Engineering</a>
+    </div>
+  </div>
+  
+  
+  
+  <div class="card" style="width:350px">
+    <img class="card-img-top" src="images/h8.jpg" alt="Card image" style="width:100%">
+    <div class="card-header"><a href="">Textile Premier Cricket League 2020 - 5th Season</a></div>
+    <div class="card-footer">
+      <i class="fa fa-calendar icon-happ"></i>
+      <span class="date">Mar 20 2020</span><br>
+      <i class="fas fa-university icon-happ"></i>
+      <a href="">Quality Enhancement Cell</a>
+    </div>
+  </div>
+  
+  
+  
+  <div class="card" style="width:350px">
+    <img class="card-img-top" src="images/h10.jpg" alt="Card image" style="width:100%">
+    <div class="card-header"><a href="">Students of MSBA presented their Research Papers in 1st Multidisciplinary National</a></div>
+    <div class="card-footer">
+      <i class="fa fa-calendar icon-happ"></i>
+      <span class="date">Mar 20 2020</span><br>
+      <i class="fas fa-university icon-happ"></i>
+      <a href="">Quality Enhancement Cell</a>
+    </div>
+  </div>
+  
+  
+  <div class="col-xl-4 col-lg-12">
+    <div class="card" style="width:350px">
+      <img class="card-img-top" src="images/h12.jpg" alt="Card image" style="width:100%">
+      <div class="card-header"><a href="">2nd position in all Pakistan Naat Nigari Competition</a></div>
+      <div class="card-footer">
+        <i class="fa fa-calendar icon-happ"></i>
+        <span class="date">Mar 20 2020</span><br>
+        <i class="fas fa-university icon-happ"></i>
+        <a href="">Quality Enhancement Cell</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+<!----------------------------------Happenings tabs1-------------------------------------->
+
+      <div class="col-xl-4 col-lg-12">
+        <ul class="nav nav-tabs" id="myTab" role="tablist" style="">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="pill" href="#home">Notice Board</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="pill" href="#profile">Events</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="home"><a href="">Notice for Commencement of Spring 
+            Semester-2020 and Fee Schedule for Graduate Programs</a><br><span>Mar 13, 2020</span>
+          <hr>
+          <a href="">DRUG AWARENESS AND PREVENTION APP “ ZINDAGI” 
+            (SMART PHONE APPLICATION)</a><br><span>Fev 10, 2020</span>
+          <hr>
+          <a href="">Academic Calender Graduate Programs 2019-2020</a><br><span class="date">Oct 25, 2020</span>
+          <hr>
+          <a href="">Sports’ Calendar Fall and Spring2019-20</a><br><span class="date">Oct 23, 2020</span>
+          <hr>
+          <a href="">Academic Calendar of Fall Semester 2019</a><br><span class="date">Oct 21, 2020</span>
+          <hr>
+          <button class="btn btn-primary"> View more notices</button>
+          </div>
+          
+          <div class="tab-pane fade" id="profile"><button class="btn btn-primary">view more events</button></div>
+          
+        </div> 
+<!----------------------------------Happenings tabs2-------------------------------------->
+
+        <ul class="nav nav-tabs mt-5" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="pill" href="#tenders">Tenders</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="pill" href="#careers">Careers</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="tenders">
+            <a href="">Tender Civil Works 20-03-01</a><br><span>Mar 30, 2020</span>
+          <hr>
+          <a href="">Tender Notice # H-20/03-01</a><br><span>Apr 14, 2020</span>
+          <hr>
+          <a href="">Tender Notice # PGH-20-03-01</a><br><span class="date">Apr 14, 2020</span>
+          <hr>
+          <button class="btn btn-primary align-content-lg-end"> View more Tenders</button>
+          </div>
+          
+          <div class="tab-pane fade" id="careers">
+            <a href="">Research Associate Required</a><br><span class="date">Oct 25, 2020</span>
+            <hr>
+            <button class="btn btn-primary">view more careers</button></div>
+        </div>
+
+        <div class="mt-5 happening-non-tab">
+          <h3>NTU Media Cell</h2>
+          <i class="fa fa-caret-right pr-2"></i><a href="">NTU Press Clipping</a>
+
+          <h3 class="mt-5">NTU Media Cell</h2>
+            <i class="fa fa-caret-right pr-1"></i><a href="">Public Complaints Resolution Mechanism Cell</a>
+            <hr>
+            <i class="fa fa-caret-right pr-2 mb-5"></i><a href="">Pensioner's Information & Complaints Cell</a>
+        </div>
+            <img class="pt-3" style="margin-left: 25%;" src="images/pakistan_citizen_portal.png">
+            <hr>
+            <img class="pt-3 pl-5" style="width: 80%; " src="images/centerofexcelence.png">
+            <hr>
+            <img class="pt-3 pl-3" style="margin-left: 25%;" src="images/ehsas.jpg">
+            <div class=" problem-image">
+            <img class="pt-3 pl-4" src="images/office_logo.jpg" style="width: 300px;">
+            </div>
+      </div>
+    </div>
+    </div>
+
+<footer>
+  <div class="container-fluid footer-con mt-5">
+    <img src="images/footer-ribbon.png" alt="" style="width: 200px; margin-left: 10%; position: relative; top: -25;">
+    <div class="container">
+    <div class="row footer-content">
+      <div class="col-lg-2">
+        <h4 class="text-white mt-5 pb-2">Faculty & Staff</h4> 
+        <p class="text-white" style="font-size: 14px;">
+         <a href="">» NTU Webmail</a><br>
+         <a href="">» Update Profile</a><br>
+         <a href="">» Faculty & Staff</a><br>
+         <a href="">» Faculty Publications</a><br>          
+        </p>
+      </div>
+      <div class="col-lg-2">
+        <h4 class="text-white mt-5 pb-2">Students</h4> 
+        <p class="text-white" style="font-size: 14px;">
+         <a href="">»  Academic Calendar</a><br>
+         <a href="">»  Class Time Table</a><br>
+         <a href="">»  Exam Datesheet</a><br>
+         <a href="">»  Semester Results</a><br>  
+      </div>
+
+      <div class="col-lg-2">
+        <h4 class="text-white mt-5 pb-2">.</h4> 
+        <p class="text-white" style="font-size: 14px;">
+         <a href="">» Notice Board</a><br>
+         <a href="">» Upcoming Events</a><br>
+         <a href="">» Downloads</a><br>
+         <a href="">» Teacher Evaluation</a><br>  
+        </p>
+      </div>
+
+      <div class="col-lg-2">
+        <h4 class="text-white mt-5 pb-2">Quick Links</h4> 
+        <p class="text-white" style="font-size: 14px;">
+        <a href="">» Tenders</a><br>
+        <a href="">» Careers</a><br>
+        <a href="">» News & Updates</a><br>
+        <a href="">» Contact Us</a><br>  
+        </p>
+      </div>
+
+      <div class="col-lg-4">
+      <h4 class="text-white mt-5 pb-2">Conferences / Innovation Centres</h4> 
+      <p class="text-white" style="font-size: 14px;">
+      <a href="">» Covitex 2019</a><br>
+      <a href="">» Dice Textile 2019</a><br>
+      <a href="">» International Conference on Technical Textiles 2017</a><br>
+      <a href="">» Conference on Emerging Trends in Knitting (ETK-2018)</a><br>  
+      </p>
+      </div>
+    </div>
+  </div>
+</div>
+  <div class="container-fluid footer2 pt-3" style="color: white; height: 60px;font-size: 12px;">
+    <p class="text-center">Copyright © 2020. All Rights Reserved. National Textile University.   |   Updated: 27th Mar, 2020</p>
+  </div>
+</footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
